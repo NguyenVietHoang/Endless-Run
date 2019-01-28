@@ -17,7 +17,7 @@ INSTALLATION
 + This game is better running on PC with the aspect ratio of 16:9/16:10. 
 + How to run the game:
 	. In Unity: Go to "Main" scene -> press Play
-	. Or use the build: Go to Build -> run "Unity Test" app
+	. Or use the build: Go to Build -> run "Unity Test" app (The build is only available via file downloaded by Google Drive)
 
 #############################
 

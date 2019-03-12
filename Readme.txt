@@ -2,7 +2,6 @@
 
 Project title: Unity Test
 Author: NGUYEN Viet Hoang
-This project was made for KIXEYE "Senior Unity Developper" offer.
 
 #############################
 

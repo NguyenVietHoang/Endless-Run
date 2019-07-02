@@ -60,46 +60,6 @@ HOW TO TEST THE FEATURE
 
 #############################
 
-FUTURE FEATURE
-
-+ When the game was finished, the data will be sent to the server via HTTP REST API:
-### Request
-
- POST /leaderboard
-
-
-Body:
-
-
-json
-
-{
-    
-"userName": "some-user-name",
-    
-"score": 120
-
-}
-
-
-
-### Response Codes
-
-
-* 404 - Username not found (user has not registered with the leaderboard service)
-
-* 405 - Invalid Username supplied
-
-* 200 - Ok
-
-+ We will add a view that allow the player to register a user name on the server.
-
-+ The data will be sent to server when PlayerControler.cs -> GameOver() was called. We will show the GameOver Tab if we get the response "200".
-
-+ If the server respond with 404 or 405, we will open the register form that allow the player can sign up a new account. This form also have Replay button and Quit button for player who do not want to sign up.
-
-#############################
-
 CREDIT
 
 All Assets, sound and font were downloaded in the internet
